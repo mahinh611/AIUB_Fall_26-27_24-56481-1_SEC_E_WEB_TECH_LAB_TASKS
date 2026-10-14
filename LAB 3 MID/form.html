@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Registration Form</h1>
+<form>
+<div>
+<label for="fullname">Fullname:</label>
+<input type="text" name="fullname" id="fullname" required>
+</div><br>
+<div>
+<label for="password">Password:</label>
+<input type="password" name="password" id="password">
+</div><br>
+<div>
+<label for="dob">Date of birth:</label>
+<input type="date" name="dob" id="dob">
+</div><br>
+<div>
+<label for="image">Choose your photo:</label>
+<input type="file" name="photo" id="photo">
+</div><br>
+<div>
+<label for="gender">Gender:</label>
+<input type="radio" name="gender" id="male" value="Male">Male
+<input type="radio" name="gender" id="female" value="Female">Female
+</div><br>
+<div>
+<label for="religion">Religion:</label>
+<input type="checkbox" name="r1" id="r1" value="Islam" checked>Islam
+<input type="checkbox" name="r2" id="r2" value="Hindu">Hindu
+</div><br>
+<div>
+<label for="department">Department:</label>
+<select name="department">
+<option value="CSE" selected>CSE</option>
+<option value="EEE">EEE</option>
+<option value="IPE">IPE</option>
+</select>
+</div><br>
+<div>
+<label for="Address">Write down the address:</label>
+<textarea rows="10"></textarea>
+</div><br>
+<div>
+<input type="submit" value="Register">
+<input type="reset" value="Clear">
+</div><br>
+</form>
+</body>
+</html>
